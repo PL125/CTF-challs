@@ -18,7 +18,7 @@ int CS=PB0; int CLK=PB3; int DI=PB1; int DO=PB4;
 // We need to configure the page size in bits (PGS) and address bus width
 // in bits (ADW). The speed at which the clock is run is configured in
 // microseconds.
-int PGS=16; int ADW=6; int SPD=200;
+int PGS=16; int ADW=6; int SPD=200;   // 93LC46B
 
 // init the library
 MicrowireEEPROM ME(CS, CLK, DI, DO, PGS, ADW, SPD); 
